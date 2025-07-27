@@ -1,7 +1,36 @@
 {
-  "name": "my-react-router-app",
-  "private": true,
+  "name": "pdf-to-excel-poc",
+  "version": "1.0.0",
+  "description": "A React-based POC application for converting PDF files to Excel format with table extraction and space-separated column detection",
+  "private": false,
   "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "gimwachan-git",
+    "url": "https://github.com/gimwachan-git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gimwachan-git/pdf-to-excel-poc.git"
+  },
+  "keywords": [
+    "pdf",
+    "excel", 
+    "converter",
+    "react",
+    "typescript",
+    "aspose",
+    "pdf-to-excel",
+    "table-extraction",
+    "space-separated",
+    "csv",
+    "xlsx",
+    "document-processing",
+    "file-conversion",
+    "web-app",
+    "poc",
+    "frontend"
+  ],
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
@@ -11,14 +40,18 @@
   "dependencies": {
     "@react-router/node": "^7.7.1",
     "@react-router/serve": "^7.7.1",
+    "aspose-pdf-js": "^25.6.0",
+    "file-saver": "^2.0.5",
     "isbot": "^5.1.27",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router": "^7.7.1"
+    "react-router": "^7.7.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@react-router/dev": "^7.7.1",
     "@tailwindcss/vite": "^4.1.4",
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^20",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
